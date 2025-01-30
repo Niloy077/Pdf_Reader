@@ -1,0 +1,23 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '7.4.1' apply false
+    id 'com.android.library' version '7.4.1' apply false
+}
+
+// Project-level build.gradle
+//buildscript {
+//    repositories {
+//        google()  // Make sure this repository is included to find the Android plugin
+//        mavenCentral()
+//    }
+//    dependencies {
+//        classpath 'com.android.tools.build:gradle:7.4.1'  // Gradle plugin for Android
+//    }
+//}
+//
+//allprojects {
+//    repositories {
+//        google()  // Ensure this repository is included for resolving dependencies
+//        mavenCentral()
+//    }
+//}
